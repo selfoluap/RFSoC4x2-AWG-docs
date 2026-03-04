@@ -1,0 +1,5 @@
+- [RFSoC Documentation](https://www.rfsoc-pynq.io/)
+- [Board infos](https://www.realdigital.org/hardware/rfsoc-4x2)
+- [PYNQ Documentation](http://pynq.readthedocs.io/)
+- [Xilinx RFSoC 4x2 User Guide](https://www.xilinx.com/products/boards-and-kits/1-15ku43n.html)
+- [RF Data Converters Product Guide](https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf)

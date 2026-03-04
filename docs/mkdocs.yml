@@ -1,0 +1,23 @@
+site_name: RFSoC-AWG Serrodyne Suite
+site_url: https://selfoluap.github.io/RFSoC4x2-AWG/
+site_description: Documentation for high-frequency serrodyne modulation using Xilinx RFSoC.
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - System Setup:
+      - Installation: installation.md
+      - Networking: networking.md
+      - Remote Access: tailscale.md
+  - Theory:
+      - Serrodyne Modulation: serrodyne.md
+  - Usage:
+      - UI: ui.md
+      - Jupyter Environment: jupyter.md
+  - Development:
+      - Architecture: architecture.md
+      - Vivado Overlay: vivado.md
+  - Additional Resources:
+      - Further reading: board.md
+      - Troubleshooting: troubleshooting.md
