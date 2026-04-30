@@ -10,6 +10,7 @@ nav:
       - Installation: installation.md
       - Networking: networking.md
       - Remote Access: tailscale.md
+      - Deployment: deployment.md
   - Theory:
       - Serrodyne Modulation: serrodyne.md
   - Usage:

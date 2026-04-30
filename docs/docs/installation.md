@@ -5,6 +5,13 @@ This page explains how to get the project running on the RFSoC 4x2 board.
 ![RFSoc](images/rfsoc%20board.png)
 
 We are not going much into detail on how to get the RFSoC setup, please check out https://www.rfsoc-pynq.io/getting_started.html for that.
+All infos:
+
+- what you need to set up the RFSoC (SDcard, ethernet cable, etc..)
+- how to write your image (download image from https://www.pynq.io/boards.html)
+- use someting like balenaEtcher to write your image to an sdcard (https://etcher.balena.io/)
+- boot up board and connect for the first time (you often see the IP addres on the oled display)
+- if in doubt, use the references, they provided pretty good starting material
 
 ## 1) Clone the repository
 
@@ -16,7 +23,7 @@ cd RFSoC4x2-AWG
 ## 2) Run install script
 
 ```bash
-source scripts/prepare_env.sh
+install.sh
 ```
 
 The project uses several services and tools that need board-level setup. Most prerequisites are handled by `scripts/prepare_env.sh`.
