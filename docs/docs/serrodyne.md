@@ -88,9 +88,9 @@ x, y, N = calculate_serrodyne(
 )
 ```
 
-### Using the Streamlit Interface
+### Using the React Interface
 
-![UI](images/UI.png)
+The React frontend provides controls for generating and outputting serrodyne waveforms through the FastAPI backend. See the [UI page](ui.md) for the current interface.
 
 ### Using the REST API
 

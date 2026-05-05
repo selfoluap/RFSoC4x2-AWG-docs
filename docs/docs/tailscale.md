@@ -20,9 +20,9 @@ sudo tailscale up --hostname rfsoc-awg
 
 Once connected to your Tailnet, access the RFSoC services using the Tailscale hostname:
 
-| Service             | URL                     |
-| ------------------- | ----------------------- |
-| Streamlit Dashboard | `http://rfsoc-awg:8501` |
-| FastAPI Backend     | `http://rfsoc-awg:8000` |
-| Jupyter Notebook    | `http://rfsoc-awg:8888` |
-| SSH                 | `ssh xilinx@rfsoc-awg`  |
+| Service          | URL                     |
+| ---------------- | ----------------------- |
+| React Frontend   | `http://rfsoc-awg:5173` |
+| FastAPI Backend  | `http://rfsoc-awg:8001` |
+| Jupyter Notebook | `http://rfsoc-awg:8888` |
+| SSH              | `ssh xilinx@rfsoc-awg`  |

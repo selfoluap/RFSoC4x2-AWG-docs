@@ -18,6 +18,7 @@ nav:
       - Jupyter Environment: jupyter.md
   - Development:
       - Architecture: architecture.md
+      - Webapp: webapp.md
       - Vivado Overlay: vivado.md
   - Additional Resources:
       - Further reading: board.md
