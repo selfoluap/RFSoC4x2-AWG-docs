@@ -1,0 +1,32 @@
+# RFSoC4x2 AWG Docs
+
+Documentation for the RFSoC4x2 AWG implementation:
+https://github.com/selfoluap/RFSoC4x2-AWG
+
+Published docs:
+https://rfsoc4x2-awg-docs.readthedocs.io/en/latest/
+
+This site uses MkDocs.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/selfoluap/RFSoC4x2-AWG-docs
+```
+
+Create a virtual environment and install MkDocs:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs
+```
+
+Serve the documentation locally:
+
+```bash
+cd docs
+mkdocs serve --live-reload
+```
+
+Open http://localhost:8000/RFSoC4x2-AWG/ in your browser.
